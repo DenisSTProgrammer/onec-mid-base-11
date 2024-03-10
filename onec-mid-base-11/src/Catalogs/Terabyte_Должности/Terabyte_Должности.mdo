@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7842e88e-59bd-4610-85ff-39283ebe380c">
+  <producedTypes>
+    <objectType typeId="a41cca07-2a54-48d9-995c-a42483025200" valueTypeId="8f9771da-cdd7-45a3-94dd-242970fd43e5"/>
+    <refType typeId="f0feb367-c73f-4042-9369-c406e52447d8" valueTypeId="da4c256e-3381-4133-a188-addfb97e75a9"/>
+    <selectionType typeId="dfb381f0-3363-4da4-ab11-c8c720cd22f3" valueTypeId="16fe864e-2c2c-483b-9780-e33f23f8a1dd"/>
+    <listType typeId="f9854ae6-ebeb-4168-a89d-e5e0fb8ee00d" valueTypeId="ac6e483c-c4d8-475c-b0af-38f454b17564"/>
+    <managerType typeId="3262f05a-6545-4b5c-a0af-d50354bb9b85" valueTypeId="ab1499ea-4090-4493-b1f3-d5a494645b07"/>
+  </producedTypes>
+  <name>Terabyte_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Terabyte_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Terabyte_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

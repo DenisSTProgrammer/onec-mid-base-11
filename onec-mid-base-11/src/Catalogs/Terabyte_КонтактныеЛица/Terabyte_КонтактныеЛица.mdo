@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80168071-8070-4991-af31-dfd843042f30">
+  <producedTypes>
+    <objectType typeId="17fc346e-0886-4d19-b7f3-f57a187e7b1b" valueTypeId="95cab711-59f9-456f-9187-28ce371fdee2"/>
+    <refType typeId="7d50efba-d892-4c4a-8b09-66324c96a87f" valueTypeId="193fc4fb-6946-45d7-8124-45517446ec8e"/>
+    <selectionType typeId="2c632ae7-7657-4924-b833-8013ae6a981a" valueTypeId="b727ea33-271d-4b05-8a4f-4eeca7665081"/>
+    <listType typeId="fc6db36c-2b87-4cc2-b34a-6c94ce883e47" valueTypeId="b31d038a-df67-4561-847d-d1465b6e708e"/>
+    <managerType typeId="e4c238eb-8765-4f1b-a332-21a05900aa84" valueTypeId="0bb1d473-9458-4555-89b0-70831a5fb55b"/>
+  </producedTypes>
+  <name>Terabyte_КонтактныеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Terabyte контактные лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Terabyte_КонтактныеЛица.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Terabyte_КонтактныеЛица.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контактное лицо</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контактные лица</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
